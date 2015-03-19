@@ -1,0 +1,230 @@
+2015-03-19 14:52:05.307 cdpii_ionic[5414:161853] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/ECE85E96-BCD3-4912-A4FE-D2121744F527/Library/Cookies/Cookies.binarycookies
+2015-03-19 14:52:05.447 cdpii_ionic[5414:161853] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 14:52:05.448 cdpii_ionic[5414:161853] Multi-tasking -> Device: YES, App: YES
+2015-03-19 14:52:05.450 cdpii_ionic[5414:161853] Unlimited access to network resources
+2015-03-19 14:52:05.736 cdpii_ionic[5414:161853] [CDVTimer][keyboard] 0.074983ms
+2015-03-19 14:52:05.736 cdpii_ionic[5414:161853] [CDVTimer][TotalPluginStartup] 0.290036ms
+2015-03-19 14:52:06.694 cdpii_ionic[5414:161853] Resetting plugins due to page load.
+2015-03-19 14:52:06.992 cdpii_ionic[5414:161853] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/A2B4EC90-D46F-4F58-8E27-0B88ED6033CA/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 14:52:12.189 cdpii_ionic[5414:161853] src attribute changed, new value is books/1/1.pdf
+2015-03-19 14:52:12.190 cdpii_ionic[5414:161853] loadPDF  books/1/1.pdf
+2015-03-19 14:52:12.641 cdpii_ionic[5414:161853] loaded = 131072 total = 177114 state = loading
+2015-03-19 14:52:12.641 cdpii_ionic[5414:161853] loaded = 177114 total = 177114 state = loading
+2015-03-19 14:52:12.679 cdpii_ionic[5414:161853] renderPage  1
+2015-03-19 14:52:26.650 cdpii_ionic[5414:161853] next
+2015-03-19 14:52:26.650 cdpii_ionic[5414:161853] renderPage  2
+2015-03-19 14:52:28.356 cdpii_ionic[5414:161853] next
+2015-03-19 14:52:28.356 cdpii_ionic[5414:161853] renderPage  3
+2015-03-19 14:52:29.788 cdpii_ionic[5414:161853] prev
+2015-03-19 14:52:29.788 cdpii_ionic[5414:161853] renderPage  2
+2015-03-19 14:52:30.921 cdpii_ionic[5414:161853] prev
+2015-03-19 14:52:30.922 cdpii_ionic[5414:161853] renderPage  1
+2015-03-19 14:53:06.522 cdpii_ionic[5414:161853] src attribute changed, new value is books/4/4.pdf
+2015-03-19 14:53:06.522 cdpii_ionic[5414:161853] loadPDF  books/4/4.pdf
+2015-03-19 14:53:06.726 cdpii_ionic[5414:161853] loaded = 440378 total = 440378 state = loading
+2015-03-19 14:53:06.768 cdpii_ionic[5414:161853] renderPage  1
+2015-03-19 15:02:27.541 cdpii_ionic[5722:164123] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/DAE8723B-1285-463A-8183-B52D6EE8CD33/Library/Cookies/Cookies.binarycookies
+2015-03-19 15:02:27.698 cdpii_ionic[5722:164123] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 15:02:27.699 cdpii_ionic[5722:164123] Multi-tasking -> Device: YES, App: YES
+2015-03-19 15:02:27.701 cdpii_ionic[5722:164123] Unlimited access to network resources
+2015-03-19 15:02:27.995 cdpii_ionic[5722:164123] [CDVTimer][keyboard] 0.066996ms
+2015-03-19 15:02:27.995 cdpii_ionic[5722:164123] [CDVTimer][TotalPluginStartup] 0.280023ms
+2015-03-19 15:02:28.073 cdpii_ionic[5722:164123] Resetting plugins due to page load.
+2015-03-19 15:02:28.334 cdpii_ionic[5722:164123] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/B202AAC2-303C-4407-AA13-60D617991989/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 15:02:34.464 cdpii_ionic[5722:164123] src attribute changed, new value is books/1/1.pdf
+2015-03-19 15:02:34.465 cdpii_ionic[5722:164123] loadPDF  books/1/1.pdf
+2015-03-19 15:02:34.943 cdpii_ionic[5722:164123] loaded = 177114 total = 177114 state = loading
+2015-03-19 15:02:34.958 cdpii_ionic[5722:164123] renderPage  1
+2015-03-19 15:13:28.101 cdpii_ionic[6029:166493] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/7D4EE805-1A8C-420C-AFCB-75971FFF18C3/Library/Cookies/Cookies.binarycookies
+2015-03-19 15:13:28.279 cdpii_ionic[6029:166493] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 15:13:28.279 cdpii_ionic[6029:166493] Multi-tasking -> Device: YES, App: YES
+2015-03-19 15:13:28.283 cdpii_ionic[6029:166493] Unlimited access to network resources
+2015-03-19 15:13:28.692 cdpii_ionic[6029:166493] [CDVTimer][keyboard] 0.069976ms
+2015-03-19 15:13:28.692 cdpii_ionic[6029:166493] [CDVTimer][TotalPluginStartup] 0.276983ms
+2015-03-19 15:13:28.779 cdpii_ionic[6029:166493] Resetting plugins due to page load.
+2015-03-19 15:13:29.043 cdpii_ionic[6029:166493] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/156C0E4A-CBE8-4182-AAD3-AE6D824DDC6F/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 15:13:34.200 cdpii_ionic[6029:166493] src attribute changed, new value is books/1/1.pdf
+2015-03-19 15:13:34.200 cdpii_ionic[6029:166493] loadPDF  books/1/1.pdf
+2015-03-19 15:13:34.765 cdpii_ionic[6029:166493] loaded = 177114 total = 177114 state = loading
+2015-03-19 15:13:34.778 cdpii_ionic[6029:166493] renderPage  1
+2015-03-19 15:14:26.809 cdpii_ionic[6029:166493] next
+2015-03-19 15:14:26.809 cdpii_ionic[6029:166493] renderPage  2
+2015-03-19 15:14:28.454 cdpii_ionic[6029:166493] next
+2015-03-19 15:14:28.454 cdpii_ionic[6029:166493] renderPage  3
+2015-03-19 15:14:33.172 cdpii_ionic[6029:166493] prev
+2015-03-19 15:14:33.172 cdpii_ionic[6029:166493] renderPage  2
+2015-03-19 15:14:34.698 cdpii_ionic[6029:166493] prev
+2015-03-19 15:14:34.698 cdpii_ionic[6029:166493] renderPage  1
+2015-03-19 15:14:36.553 cdpii_ionic[6029:166493] prev
+2015-03-19 15:28:05.525 cdpii_ionic[6206:169193] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/88103008-7ABD-402F-8FB3-2E12CAB06CDB/Library/Cookies/Cookies.binarycookies
+2015-03-19 15:28:05.688 cdpii_ionic[6206:169193] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 15:28:05.689 cdpii_ionic[6206:169193] Multi-tasking -> Device: YES, App: YES
+2015-03-19 15:28:05.691 cdpii_ionic[6206:169193] Unlimited access to network resources
+2015-03-19 15:28:05.912 cdpii_ionic[6206:169193] [CDVTimer][keyboard] 0.059962ms
+2015-03-19 15:28:05.913 cdpii_ionic[6206:169193] [CDVTimer][TotalPluginStartup] 0.273943ms
+2015-03-19 15:28:05.978 cdpii_ionic[6206:169193] Resetting plugins due to page load.
+2015-03-19 15:28:06.194 cdpii_ionic[6206:169193] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/86D52720-15C1-4189-B907-F45485B1F8E6/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 15:28:10.568 cdpii_ionic[6206:169193] src attribute changed, new value is books/1/1.pdf
+2015-03-19 15:28:10.568 cdpii_ionic[6206:169193] loadPDF  books/1/1.pdf
+2015-03-19 15:28:10.922 cdpii_ionic[6206:169193] loaded = 177114 total = 177114 state = loading
+2015-03-19 15:28:10.994 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:28:22.267 cdpii_ionic[6206:169193] src attribute changed, new value is books/3/3.pdf
+2015-03-19 15:28:22.267 cdpii_ionic[6206:169193] loadPDF  books/3/3.pdf
+2015-03-19 15:28:22.503 cdpii_ionic[6206:169193] loaded = 544649 total = 544649 state = loading
+2015-03-19 15:28:22.529 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:29:16.750 cdpii_ionic[6206:169193] src attribute changed, new value is books/4/4.pdf
+2015-03-19 15:29:16.750 cdpii_ionic[6206:169193] loadPDF  books/4/4.pdf
+2015-03-19 15:29:16.937 cdpii_ionic[6206:169193] loaded = 440378 total = 440378 state = loading
+2015-03-19 15:29:16.960 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:29:21.530 cdpii_ionic[6206:169193] src attribute changed, new value is books/6/6.pdf
+2015-03-19 15:29:21.530 cdpii_ionic[6206:169193] loadPDF  books/6/6.pdf
+2015-03-19 15:29:21.714 cdpii_ionic[6206:169193] loaded = 239475 total = 239475 state = loading
+2015-03-19 15:29:21.739 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:29:27.486 cdpii_ionic[6206:169193] src attribute changed, new value is books/2/2.pdf
+2015-03-19 15:29:27.487 cdpii_ionic[6206:169193] loadPDF  books/2/2.pdf
+2015-03-19 15:29:27.690 cdpii_ionic[6206:169193] loaded = 196608 total = 3372195 state = loading
+2015-03-19 15:29:27.690 cdpii_ionic[6206:169193] loaded = 3372195 total = 3372195 state = loading
+2015-03-19 15:29:27.742 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:29:38.841 cdpii_ionic[6206:169193] src attribute changed, new value is books/4/4.pdf
+2015-03-19 15:29:38.841 cdpii_ionic[6206:169193] loadPDF  books/4/4.pdf
+2015-03-19 15:29:39.015 cdpii_ionic[6206:169193] loaded = 440378 total = 440378 state = loading
+2015-03-19 15:29:39.039 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:29:55.364 cdpii_ionic[6206:169193] src attribute changed, new value is books/6/6.pdf
+2015-03-19 15:29:55.364 cdpii_ionic[6206:169193] loadPDF  books/6/6.pdf
+2015-03-19 15:29:55.545 cdpii_ionic[6206:169193] loaded = 239475 total = 239475 state = loading
+2015-03-19 15:29:55.568 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:30:03.868 cdpii_ionic[6206:169193] Resetting plugins due to page load.
+2015-03-19 15:30:03.873 cdpii_ionic[6206:169193] Failed to load webpage with error: The requested URL was not found on this server.
+2015-03-19 15:30:05.344 cdpii_ionic[6206:169193] Resetting plugins due to page load.
+2015-03-19 15:30:05.345 cdpii_ionic[6206:169193] Failed to load webpage with error: The requested URL was not found on this server.
+2015-03-19 15:30:06.792 cdpii_ionic[6206:169193] src attribute changed, new value is books/4/4.pdf
+2015-03-19 15:30:06.792 cdpii_ionic[6206:169193] loadPDF  books/4/4.pdf
+2015-03-19 15:30:06.982 cdpii_ionic[6206:169193] loaded = 440378 total = 440378 state = loading
+2015-03-19 15:30:07.006 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:30:10.703 cdpii_ionic[6206:169193] src attribute changed, new value is books/2/2.pdf
+2015-03-19 15:30:10.703 cdpii_ionic[6206:169193] loadPDF  books/2/2.pdf
+2015-03-19 15:30:10.880 cdpii_ionic[6206:169193] loaded = 3372195 total = 3372195 state = loading
+2015-03-19 15:30:10.990 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:30:49.719 cdpii_ionic[6206:169193] src attribute changed, new value is books/1/1.pdf
+2015-03-19 15:30:49.719 cdpii_ionic[6206:169193] loadPDF  books/1/1.pdf
+2015-03-19 15:30:49.891 cdpii_ionic[6206:169193] loaded = 177114 total = 177114 state = loading
+2015-03-19 15:30:49.917 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:31:01.813 cdpii_ionic[6206:169193] src attribute changed, new value is books/3/3.pdf
+2015-03-19 15:31:01.814 cdpii_ionic[6206:169193] loadPDF  books/3/3.pdf
+2015-03-19 15:31:01.990 cdpii_ionic[6206:169193] loaded = 544649 total = 544649 state = loading
+2015-03-19 15:31:02.017 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:31:22.860 cdpii_ionic[6206:169193] src attribute changed, new value is books/1/1.pdf
+2015-03-19 15:31:22.861 cdpii_ionic[6206:169193] loadPDF  books/1/1.pdf
+2015-03-19 15:31:23.030 cdpii_ionic[6206:169193] loaded = 177114 total = 177114 state = loading
+2015-03-19 15:31:23.063 cdpii_ionic[6206:169193] renderPage  1
+2015-03-19 15:32:25.579 cdpii_ionic[6370:170384] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/C4799B28-D6B1-483E-9407-82F98647D086/Library/Cookies/Cookies.binarycookies
+2015-03-19 15:32:25.710 cdpii_ionic[6370:170384] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 15:32:25.710 cdpii_ionic[6370:170384] Multi-tasking -> Device: YES, App: YES
+2015-03-19 15:32:25.714 cdpii_ionic[6370:170384] Unlimited access to network resources
+2015-03-19 15:32:25.985 cdpii_ionic[6370:170384] [CDVTimer][keyboard] 0.095963ms
+2015-03-19 15:32:25.985 cdpii_ionic[6370:170384] [CDVTimer][TotalPluginStartup] 0.304997ms
+2015-03-19 15:32:26.066 cdpii_ionic[6370:170384] Resetting plugins due to page load.
+2015-03-19 15:32:26.322 cdpii_ionic[6370:170384] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/EEAA3C10-5DC8-4ED9-9706-753F30DDA41B/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 15:32:31.389 cdpii_ionic[6370:170384] src attribute changed, new value is books/1/1.pdf
+2015-03-19 15:32:31.389 cdpii_ionic[6370:170384] loadPDF  books/1/1.pdf
+2015-03-19 15:32:31.823 cdpii_ionic[6370:170384] loaded = 177114 total = 177114 state = loading
+2015-03-19 15:32:31.902 cdpii_ionic[6370:170384] renderPage  1
+2015-03-19 15:32:57.202 cdpii_ionic[6370:170384] next
+2015-03-19 15:32:57.202 cdpii_ionic[6370:170384] renderPage  2
+2015-03-19 15:33:01.923 cdpii_ionic[6370:170384] src attribute changed, new value is books/2/2.pdf
+2015-03-19 15:33:01.923 cdpii_ionic[6370:170384] loadPDF  books/2/2.pdf
+2015-03-19 15:33:02.122 cdpii_ionic[6370:170384] loaded = 262144 total = 3372195 state = loading
+2015-03-19 15:33:02.122 cdpii_ionic[6370:170384] loaded = 3372195 total = 3372195 state = loading
+2015-03-19 15:33:02.211 cdpii_ionic[6370:170384] renderPage  1
+2015-03-19 16:32:36.191 cdpii_ionic[6600:180371] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/3C91BFCD-1D5D-44A1-8ABD-8063918EBE12/Library/Cookies/Cookies.binarycookies
+2015-03-19 16:32:36.288 cdpii_ionic[6600:180371] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 16:32:36.289 cdpii_ionic[6600:180371] Multi-tasking -> Device: YES, App: YES
+2015-03-19 16:32:36.290 cdpii_ionic[6600:180371] Unlimited access to network resources
+2015-03-19 16:32:36.543 cdpii_ionic[6600:180371] [CDVTimer][keyboard] 0.068009ms
+2015-03-19 16:32:36.543 cdpii_ionic[6600:180371] [CDVTimer][TotalPluginStartup] 0.274956ms
+2015-03-19 16:32:36.706 cdpii_ionic[6600:180371] Resetting plugins due to page load.
+2015-03-19 16:32:36.877 cdpii_ionic[6600:180371] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/3DB64763-2A3C-40E3-842A-ADDACCB30331/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 16:32:39.661 cdpii_ionic[6600:180371] src attribute changed, new value is books/1/1.pdf
+2015-03-19 16:32:39.662 cdpii_ionic[6600:180371] loadPDF  books/1/1.pdf
+2015-03-19 16:32:40.014 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:32:46.313 cdpii_ionic[6600:180371] src attribute changed, new value is books/2/2.pdf
+2015-03-19 16:32:46.313 cdpii_ionic[6600:180371] loadPDF  books/2/2.pdf
+2015-03-19 16:32:46.632 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:32:50.749 cdpii_ionic[6600:180371] src attribute changed, new value is books/3/3.pdf
+2015-03-19 16:32:50.749 cdpii_ionic[6600:180371] loadPDF  books/3/3.pdf
+2015-03-19 16:32:50.995 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:32:55.115 cdpii_ionic[6600:180371] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:32:55.116 cdpii_ionic[6600:180371] loadPDF  books/4/4.pdf
+2015-03-19 16:32:55.353 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:22.629 cdpii_ionic[6600:180371] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:33:22.630 cdpii_ionic[6600:180371] loadPDF  books/4/4.pdf
+2015-03-19 16:33:22.821 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:26.301 cdpii_ionic[6600:180371] src attribute changed, new value is books/5/5.pdf
+2015-03-19 16:33:26.301 cdpii_ionic[6600:180371] loadPDF  books/5/5.pdf
+2015-03-19 16:33:26.713 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:29.771 cdpii_ionic[6600:180371] src attribute changed, new value is books/6/6.pdf
+2015-03-19 16:33:29.772 cdpii_ionic[6600:180371] loadPDF  books/6/6.pdf
+2015-03-19 16:33:29.989 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:32.448 cdpii_ionic[6600:180371] src attribute changed, new value is books/1/1.pdf
+2015-03-19 16:33:32.448 cdpii_ionic[6600:180371] loadPDF  books/1/1.pdf
+2015-03-19 16:33:32.645 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:35.051 cdpii_ionic[6600:180371] src attribute changed, new value is books/2/2.pdf
+2015-03-19 16:33:35.052 cdpii_ionic[6600:180371] loadPDF  books/2/2.pdf
+2015-03-19 16:33:35.305 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:37.810 cdpii_ionic[6600:180371] src attribute changed, new value is books/3/3.pdf
+2015-03-19 16:33:37.810 cdpii_ionic[6600:180371] loadPDF  books/3/3.pdf
+2015-03-19 16:33:38.010 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:40.970 cdpii_ionic[6600:180371] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:33:40.970 cdpii_ionic[6600:180371] loadPDF  books/4/4.pdf
+2015-03-19 16:33:41.175 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:44.905 cdpii_ionic[6600:180371] src attribute changed, new value is books/5/5.pdf
+2015-03-19 16:33:44.906 cdpii_ionic[6600:180371] loadPDF  books/5/5.pdf
+2015-03-19 16:33:45.141 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:33:48.137 cdpii_ionic[6600:180371] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:33:48.137 cdpii_ionic[6600:180371] loadPDF  books/4/4.pdf
+2015-03-19 16:33:48.366 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:34:41.315 cdpii_ionic[6600:180371] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:34:41.315 cdpii_ionic[6600:180371] loadPDF  books/4/4.pdf
+2015-03-19 16:34:41.517 cdpii_ionic[6600:180371] renderPage  1
+2015-03-19 16:35:42.161 cdpii_ionic[6765:181300] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/61B237C0-7C5C-48F3-AC0B-4022D4ADC129/Library/Cookies/Cookies.binarycookies
+2015-03-19 16:35:42.266 cdpii_ionic[6765:181300] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 16:35:42.266 cdpii_ionic[6765:181300] Multi-tasking -> Device: YES, App: YES
+2015-03-19 16:35:42.268 cdpii_ionic[6765:181300] Unlimited access to network resources
+2015-03-19 16:35:42.509 cdpii_ionic[6765:181300] [CDVTimer][keyboard] 0.064015ms
+2015-03-19 16:35:42.510 cdpii_ionic[6765:181300] [CDVTimer][TotalPluginStartup] 0.268996ms
+2015-03-19 16:35:42.645 cdpii_ionic[6765:181300] Resetting plugins due to page load.
+2015-03-19 16:35:42.858 cdpii_ionic[6765:181300] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/35056F0E-53A4-4492-A342-45BBFF9EB62B/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 16:35:44.772 cdpii_ionic[6765:181300] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:35:44.772 cdpii_ionic[6765:181300] loadPDF  books/4/4.pdf
+2015-03-19 16:35:45.222 cdpii_ionic[6765:181300] renderPage  1
+2015-03-19 16:35:53.708 cdpii_ionic[6765:181300] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:35:53.708 cdpii_ionic[6765:181300] loadPDF  books/4/4.pdf
+2015-03-19 16:35:53.956 cdpii_ionic[6765:181300] renderPage  1
+2015-03-19 16:35:57.290 cdpii_ionic[6765:181300] src attribute changed, new value is books/3/3.pdf
+2015-03-19 16:35:57.291 cdpii_ionic[6765:181300] loadPDF  books/3/3.pdf
+2015-03-19 16:35:57.502 cdpii_ionic[6765:181300] renderPage  1
+2015-03-19 16:36:01.029 cdpii_ionic[6765:181300] src attribute changed, new value is books/5/5.pdf
+2015-03-19 16:36:01.029 cdpii_ionic[6765:181300] loadPDF  books/5/5.pdf
+2015-03-19 16:36:01.302 cdpii_ionic[6765:181300] renderPage  1
+2015-03-19 16:36:06.446 cdpii_ionic[6765:181300] src attribute changed, new value is books/4/4.pdf
+2015-03-19 16:36:06.447 cdpii_ionic[6765:181300] loadPDF  books/4/4.pdf
+2015-03-19 16:36:06.775 cdpii_ionic[6765:181300] renderPage  1
+2015-03-19 16:36:22.294 cdpii_ionic[6765:181300] src attribute changed, new value is books/1/1.pdf
+2015-03-19 16:36:22.294 cdpii_ionic[6765:181300] loadPDF  books/1/1.pdf
+2015-03-19 16:36:22.560 cdpii_ionic[6765:181300] renderPage  1
+2015-03-19 16:37:24.760 cdpii_ionic[6926:182027] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/F6F0EF88-982A-4207-BBAA-FF41188613FA/Library/Cookies/Cookies.binarycookies
+2015-03-19 16:37:24.938 cdpii_ionic[6926:182027] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 16:37:24.939 cdpii_ionic[6926:182027] Multi-tasking -> Device: YES, App: YES
+2015-03-19 16:37:24.945 cdpii_ionic[6926:182027] Unlimited access to network resources
+2015-03-19 16:37:25.214 cdpii_ionic[6926:182027] [CDVTimer][keyboard] 0.069022ms
+2015-03-19 16:37:25.214 cdpii_ionic[6926:182027] [CDVTimer][TotalPluginStartup] 0.286996ms
+2015-03-19 16:37:25.305 cdpii_ionic[6926:182027] Resetting plugins due to page load.
+2015-03-19 16:37:25.561 cdpii_ionic[6926:182027] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/66291E34-3F5B-46C9-B690-0B9FE7B1D93A/cdpii_ionic.app/www/index.html#/app/book
+2015-03-19 16:40:14.197 CDPII[7111:183148] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Data/Application/08814E7A-EA66-4808-BA20-F7C00B617396/Library/Cookies/Cookies.binarycookies
+2015-03-19 16:40:14.356 CDPII[7111:183148] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 16:40:14.357 CDPII[7111:183148] Multi-tasking -> Device: YES, App: YES
+2015-03-19 16:40:14.359 CDPII[7111:183148] Unlimited access to network resources
+2015-03-19 16:40:14.622 CDPII[7111:183148] [CDVTimer][keyboard] 0.068009ms
+2015-03-19 16:40:14.622 CDPII[7111:183148] [CDVTimer][TotalPluginStartup] 0.279009ms
+2015-03-19 16:40:14.704 CDPII[7111:183148] Resetting plugins due to page load.
+2015-03-19 16:40:14.922 CDPII[7111:183148] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/2DD9EE38-A949-414C-962F-E6254A3ED234/data/Containers/Bundle/Application/0BA0E4B7-B7CE-4387-9751-2296CC647E1D/CDPII.app/www/index.html#/app/book
