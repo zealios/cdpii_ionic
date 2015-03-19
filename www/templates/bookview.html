@@ -1,0 +1,16 @@
+<ion-view hide-back-button=false ng-controller="BookViewController" view-title="">	
+	<ion-content style="background-color: {{pageBgColor}}">
+		<div 
+			style="position: absolute; top: 0; right: 0; display: inline-block; z-index: 99; padding: 5px"
+		>{{currentPage}}/{{totalPages}}</div>
+			
+		<pdfviewer 
+			src="{{pdfUrl}}" 
+			id="pdfViewer" 
+			load-progress="loadProgress(loaded, total, state)" 
+			on-page-load='pageLoaded(page,total)' 
+			on-swipe-left="nextPage()" 
+			on-swipe-right="prevPage()"
+		></pdfviewer>
+	</ion-content>
+</ion-view>
