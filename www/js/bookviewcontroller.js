@@ -16,8 +16,17 @@ angular.module('cdpii.controllers', ['ngPDFViewer'])
 	$scope.currentPage = 1;
 	$scope.totalPages = 3;
 
-	$scope.pdfUrl = 'books/' + $stateParams.id + '/' + $stateParams.id + '.pdf';
-	$scope.instance = pdf.Instance("pdfViewer");
+	// $scope.pdfUrl = 'books/' + $stateParams.id + '/' + $stateParams.id + '.pdf';
+	// $scope.instance = pdf.Instance("pdfViewer");
+
+	$scope.pdfUrl1 = 'books/' + $stateParams.id + '/' + $stateParams.id + '.1.pdf';
+	$scope.instance1 = pdf.Instance('pdfViewer1');
+
+	$scope.pdfUrl2 = 'books/' + $stateParams.id + '/' + $stateParams.id + '.2.pdf';
+	$scope.instance2 = pdf.Instance('pdfViewer2');
+
+	$scope.pdfUrl3 = 'books/' + $stateParams.id + '/' + $stateParams.id + '.3.pdf';
+	$scope.instance3 = pdf.Instance('pdfViewer3');
 
 	$scope.loadProgress = function(loaded, total, state) {
 		// console.log('loaded =', loaded, 'total =', total, 'state =', state);

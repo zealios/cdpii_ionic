@@ -8,8 +8,10 @@
 
 angular.module('ngPDFViewer', []).
 directive('pdfviewer', [ '$parse', function($parse) {
-	var canvas = null;
-	var instance_id = null;
+	// var canvas = null;
+	// var instance_id = null;
+	var canvas = [];
+	var instance_id = [];
 
 	return {
 		restrict: "E",
@@ -22,7 +24,8 @@ directive('pdfviewer', [ '$parse', function($parse) {
 		},
 		controller: [ '$scope', function($scope) {
 			$scope.pageNum = 1;
-			$scope.pdfDoc = null;
+			// $scope.pdfDoc = null;
+			$scope.pdfDoc = [];
 			$scope.scale = 1;
 
 			$scope.documentProgress = function(progressData) {
@@ -31,11 +34,14 @@ directive('pdfviewer', [ '$parse', function($parse) {
 				}
 			};
 
-			$scope.loadPDF = function(path) {
+			// $scope.loadPDF = function(path) {
+			$scope.loadPDF = function(idx, path) {
 				console.log('loadPDF ', path);
 				PDFJS.getDocument(path, null, null, $scope.documentProgress).then(function(_pdfDoc) {
-					$scope.pdfDoc = _pdfDoc;
-					$scope.renderPage($scope.pageNum, function(success) {
+					// $scope.pdfDoc = _pdfDoc;
+					$scope.pdfDoc[idx] = _pdfDoc;
+					// $scope.renderPage($scope.pageNum, function(success) {
+					$scope.renderPage(idx, $scope.pageNum, function(success) {
 						if ($scope.loadProgress) {
 							$scope.loadProgress({state: "finished", loaded: 0, total: 0});
 						}
@@ -48,18 +54,23 @@ directive('pdfviewer', [ '$parse', function($parse) {
 				});
 			};
 
-			$scope.renderPage = function(num, callback) {
+			// $scope.renderPage = function(num, callback) {
+			$scope.renderPage = function(idx, num, callback) {
 				console.log('renderPage ', num);
-				$scope.pdfDoc.getPage(num).then(function(page) {
+				// $scope.pdfDoc.getPage(num).then(function(page) {
+				$scope.pdfDoc[idx].getPage(num).then(function(page) {
 					var viewport = page.getViewport($scope.scale);
-					var ctx = canvas.getContext('2d');
+					// var ctx = canvas.getContext('2d');
+					var ctx = canvas[idx].getContext('2d');
 
 					//modified how we render the pdf to canvas. Scale accordingly.
 					var newScale = window.innerWidth / viewport.width;
 					var newViewport = page.getViewport(newScale);
 
-					canvas.height = newViewport.height;
-					canvas.width = newViewport.width;
+					// canvas.height = newViewport.height;
+					// canvas.width = newViewport.width;
+					canvas[idx].height = newViewport.height;
+					canvas[idx].width = newViewport.width;
 
 					page.render({ canvasContext: ctx, viewport: newViewport }).promise.then(
 						function() { 
@@ -114,14 +125,18 @@ directive('pdfviewer', [ '$parse', function($parse) {
 			});
 		} ],
 		link: function(scope, iElement, iAttr) {
-			canvas = iElement.find('canvas')[0];
-			instance_id = iAttr.id;
+			// canvas = iElement.find('canvas')[0];
+			// instance_id = iAttr.id;
+			var currIdx = canvas.length;
+			canvas.push(iElement.find('canvas')[0]);
+			instance_id.push(iAttr.id);
 
 			iAttr.$observe('src', function(v) {
 				console.log('src attribute changed, new value is', v);
 				if (v !== undefined && v !== null && v !== '') {
 					scope.pageNum = 1;
-					scope.loadPDF(scope.src);
+					// scope.loadPDF(scope.src);
+					scope.loadPDF(currIdx, scope.src);
 				}
 			});
 		}
