@@ -34,6 +34,9 @@
         },
         "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.ionicframework.cdpiiionic757301"
+        },
+        "org.crosswalk.engine": {
+            "PACKAGE_NAME": "com.ionicframework.cdpiiionic757301"
         }
     },
     "dependent_plugins": {}

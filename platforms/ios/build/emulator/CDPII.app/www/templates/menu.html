@@ -1,0 +1,27 @@
+<ion-side-menus>
+	<!-- Center content -->
+	<ion-side-menu-content>
+		<ion-nav-bar class="bar-stable">
+			<ion-nav-back-button class="button-clear">
+				<i class="ion-arrow-left-c"></i> Back
+			</ion-nav-back-button>
+
+			<ion-nav-buttons side="right">
+				<button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
+			</ion-nav-buttons>
+		</ion-nav-bar>
+
+		<ion-nav-view name="menuContent"></ion-nav-view>
+	</ion-side-menu-content>
+
+	<!-- Right menu -->
+	<ion-side-menu side="right">
+		<ion-content>
+			<ion-list>
+				<ion-item menu-close href="#/app/content">CDPII</ion-item>
+				<ion-item menu-close href="#/app/about">ABOUT US</ion-item>
+				<ion-item menu-close href="#/app/contact">CONTACT US</ion-item>
+			</ion-list>
+		</ion-content>
+	</ion-side-menu>
+</ion-side-menus>
