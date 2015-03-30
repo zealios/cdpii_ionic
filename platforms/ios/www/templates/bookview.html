@@ -1,38 +1,45 @@
-<ion-view hide-back-button=false ng-controller="BookViewController" view-title="">	
+<ion-view hide-back-button=false ng-controller="BookViewController" view-title="">
 	<ion-content style="background-color: {{pageBgColor}}">
-		<!--
-		<div 
-			style="position: absolute; top: 0; right: 0; display: inline-block; z-index: 99; padding: 5px"
-		>{{currentPage}}/{{totalPages}}</div>
-			
-		<pdfviewer 
-			src="{{pdfUrl}}" 
-			id="pdfViewer" 
-			load-progress="loadProgress(loaded, total, state)" 
-			on-page-load='pageLoaded(page,total)' 
-			on-swipe-left="nextPage()" 
-			on-swipe-right="prevPage()"
+		<pdfviewer
+			src="{{pdfUrl}}"
+			id="pdfViewer"
+			load-progress="loadProgress(loaded, total, state)"
+			on-page-load="pageLoaded(page,total)"
+			style="display: none"
 		></pdfviewer>
-		-->
+
 		<ion-slide-box show-pager="true">
 			<ion-slide>
-				<pdfviewer 
-					src="{{pdfUrl1}}" 
-					id="pdfViewer1"
-				></pdfviewer>
+				<ion-scroll zooming="true" direction="xy" style="width: 100%; height: 100%">
+					<canvas id="pdfCanvas1"></canvas>
+				</ion-scroll>
 			</ion-slide>
 			<ion-slide>
-				<pdfviewer 
-					src="{{pdfUrl2}}" 
-					id="pdfViewer2"
-				></pdfviewer>
+				<ion-scroll zooming="true" direction="xy" style="width: 100%; height: 100%">
+					<canvas id="pdfCanvas2"></canvas>
+				</ion-scroll>
 			</ion-slide>
 			<ion-slide>
-				<pdfviewer 
-					src="{{pdfUrl3}}" 
-					id="pdfViewer3"
-				></pdfviewer>
+				<ion-scroll zooming="true" direction="xy" style="width: 100%; height: 100%">
+					<canvas id="pdfCanvas3"></canvas>
+				</ion-scroll>
 			</ion-slide>
 		</ion-slide-box>
+
+		<!--
+		<ion-scroll zooming="true" direction="xy" style="width: 100%; height: 100%">
+			<ion-slide-box show-pager="true">
+				<ion-slide>
+					<canvas id="pdfCanvas1"></canvas>
+				</ion-slide>
+				<ion-slide>
+					<canvas id="pdfCanvas2"></canvas>
+				</ion-slide>
+				<ion-slide>
+					<canvas id="pdfCanvas3"></canvas>
+				</ion-slide>
+			</ion-slide-box>
+		</ion-scroll>
+		-->
 	</ion-content>
 </ion-view>

@@ -1,8 +1,6 @@
 angular.module('cdpii.controllers', ['ngPDFViewer'])
 
 .controller('BookViewController', ['$scope', '$stateParams', 'PDFViewerService', function($scope, $stateParams, pdf) {
-	// $scope.viewContent = '<b>' + $stateParams.id + '</b>';
-	// $scope.viewTitle = $stateParams.title;
 	switch(parseInt($stateParams.id)) {
 		case 1: $scope.pageBgColor = '#E9E7C7'; break;
 		case 2: $scope.pageBgColor = '#E2E2E4'; break;
@@ -13,43 +11,37 @@ angular.module('cdpii.controllers', ['ngPDFViewer'])
 		default: $scope.pageBgColor = '#FFFFFF';
 	}
 
+	$scope.viewPages = [
+		'books/' + $stateParams.id + '/' + $stateParams.id + '.1.pdf',
+		'books/' + $stateParams.id + '/' + $stateParams.id + '.2.pdf',
+		'books/' + $stateParams.id + '/' + $stateParams.id + '.3.pdf'
+	];
+
+	$scope.totalPages = $scope.viewPages.length;
 	$scope.currentPage = 1;
-	$scope.totalPages = 3;
 
-	// $scope.pdfUrl = 'books/' + $stateParams.id + '/' + $stateParams.id + '.pdf';
-	// $scope.instance = pdf.Instance("pdfViewer");
-
-	$scope.pdfUrl1 = 'books/' + $stateParams.id + '/' + $stateParams.id + '.1.pdf';
-	$scope.instance1 = pdf.Instance('pdfViewer1');
-
-	$scope.pdfUrl2 = 'books/' + $stateParams.id + '/' + $stateParams.id + '.2.pdf';
-	$scope.instance2 = pdf.Instance('pdfViewer2');
-
-	$scope.pdfUrl3 = 'books/' + $stateParams.id + '/' + $stateParams.id + '.3.pdf';
-	$scope.instance3 = pdf.Instance('pdfViewer3');
+	$scope.pdfUrl = $scope.viewPages.splice(0, 1)[0];
+	$scope.instance = pdf.Instance("pdfViewer");
 
 	$scope.loadProgress = function(loaded, total, state) {
 		// console.log('loaded =', loaded, 'total =', total, 'state =', state);
 	};
 
-	$scope.pageLoaded = function(curPage, totalPages) {
-		$scope.currentPage = curPage;
-		$scope.totalPages = totalPages;
-	};
+	$scope.pageLoaded = function(page, total) {
+		var sourceCanvas = angular.element(document.querySelector('canvas'))[0],
+				destCanvas = angular.element(document.querySelector('#pdfCanvas' + $scope.currentPage))[0];
 
-	$scope.nextPage = function() {
-		// console.log("next");
-		if (($scope.currentPage + 1) <= $scope.totalPages) {
-			$scope.instance.nextPage();
+		var ctx = destCanvas.getContext('2d');
+
+		destCanvas.width = sourceCanvas.width;
+		destCanvas.height = sourceCanvas.height;
+
+		ctx.drawImage(sourceCanvas, 0,0);
+
+		if ($scope.viewPages.length > 0) {
 			$scope.currentPage++;
-		}		
-	};
-
-	$scope.prevPage = function() {
-		// console.log("prev");
-		if (($scope.currentPage - 1) >= 1) {
-			$scope.instance.prevPage();
-			$scope.currentPage--;
+			$scope.pdfUrl = $scope.viewPages.splice(0, 1)[0];
+			$scope.instance = pdf.Instance("pdfViewer");
 		}
 	};
 }]);
