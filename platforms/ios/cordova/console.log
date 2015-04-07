@@ -269,3 +269,51 @@
 2015-03-30 11:09:31.082 CDPII[1913:36228] loadPDF  books/1/1.3.pdf
 2015-03-30 11:09:31.213 CDPII[1913:36228] renderPage  1
 2015-03-30 11:10:52.111 CDPII[1913:36528] Terminating since there is no system app.
+2015-04-07 11:58:50.922 CDPII[6274:111759] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Data/Application/8179FCA2-FFE9-4320-AAAC-52B583794F1C/Library/Cookies/Cookies.binarycookies
+2015-04-07 11:58:51.219 CDPII[6274:111759] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 11:58:51.219 CDPII[6274:111759] Multi-tasking -> Device: YES, App: YES
+2015-04-07 11:58:51.233 CDPII[6274:111759] Unlimited access to network resources
+2015-04-07 11:58:51.600 CDPII[6274:111759] [CDVTimer][keyboard] 0.095010ms
+2015-04-07 11:58:51.600 CDPII[6274:111759] [CDVTimer][TotalPluginStartup] 0.313044ms
+2015-04-07 11:58:51.914 CDPII[6274:111759] Resetting plugins due to page load.
+2015-04-07 11:58:52.235 CDPII[6274:111759] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Bundle/Application/FC4E1C72-F9C3-4962-A770-0C8BA419B618/CDPII.app/www/index.html#/app/book
+2015-04-07 12:04:21.880 CDPII[6469:113398] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Data/Application/0EE5410B-17C4-45B6-860E-1EB1E8899734/Library/Cookies/Cookies.binarycookies
+2015-04-07 12:04:21.957 CDPII[6469:113398] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 12:04:21.958 CDPII[6469:113398] Multi-tasking -> Device: YES, App: YES
+2015-04-07 12:04:21.960 CDPII[6469:113398] Unlimited access to network resources
+2015-04-07 12:04:22.062 CDPII[6469:113398] [CDVTimer][keyboard] 0.078022ms
+2015-04-07 12:04:22.062 CDPII[6469:113398] [CDVTimer][TotalPluginStartup] 0.294983ms
+2015-04-07 12:04:22.143 CDPII[6469:113398] Resetting plugins due to page load.
+2015-04-07 12:04:22.444 CDPII[6469:113398] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Bundle/Application/B69DE075-C1D0-4542-9A71-E608DB4F33CE/CDPII.app/www/index.html#/app/book
+2015-04-07 12:06:21.916 CDPII[6635:114256] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Data/Application/7FABEB70-4FEC-4F7A-9971-16D4FEC3A5D9/Library/Cookies/Cookies.binarycookies
+2015-04-07 12:06:22.026 CDPII[6635:114256] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 12:06:22.027 CDPII[6635:114256] Multi-tasking -> Device: YES, App: YES
+2015-04-07 12:06:22.030 CDPII[6635:114256] Unlimited access to network resources
+2015-04-07 12:06:22.126 CDPII[6635:114256] [CDVTimer][keyboard] 0.100017ms
+2015-04-07 12:06:22.126 CDPII[6635:114256] [CDVTimer][TotalPluginStartup] 0.373006ms
+2015-04-07 12:06:22.199 CDPII[6635:114256] Resetting plugins due to page load.
+2015-04-07 12:06:22.447 CDPII[6635:114256] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Bundle/Application/79CB573F-C143-432D-8A21-678DE4C85D3E/CDPII.app/www/index.html#/app/book
+2015-04-07 12:11:56.673 CDPII[6828:115892] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Data/Application/559A9C59-753C-492D-AC4A-86907B5F8308/Library/Cookies/Cookies.binarycookies
+2015-04-07 12:11:56.759 CDPII[6828:115892] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 12:11:56.760 CDPII[6828:115892] Multi-tasking -> Device: YES, App: YES
+2015-04-07 12:11:56.762 CDPII[6828:115892] Unlimited access to network resources
+2015-04-07 12:11:56.865 CDPII[6828:115892] [CDVTimer][keyboard] 0.104010ms
+2015-04-07 12:11:56.865 CDPII[6828:115892] [CDVTimer][TotalPluginStartup] 0.309050ms
+2015-04-07 12:11:56.970 CDPII[6828:115892] Resetting plugins due to page load.
+2015-04-07 12:11:57.254 CDPII[6828:115892] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Bundle/Application/5BB9E5BB-ABA9-4A2A-A2E9-5292F6F4A6C8/CDPII.app/www/index.html#/app/book
+2015-04-07 12:13:27.240 CDPII[6988:116727] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Data/Application/63FA3099-5AE7-4E55-A6C0-3BA3BC29B3CB/Library/Cookies/Cookies.binarycookies
+2015-04-07 12:13:27.326 CDPII[6988:116727] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 12:13:27.327 CDPII[6988:116727] Multi-tasking -> Device: YES, App: YES
+2015-04-07 12:13:27.329 CDPII[6988:116727] Unlimited access to network resources
+2015-04-07 12:13:27.421 CDPII[6988:116727] [CDVTimer][keyboard] 0.082016ms
+2015-04-07 12:13:27.421 CDPII[6988:116727] [CDVTimer][TotalPluginStartup] 0.295043ms
+2015-04-07 12:13:27.533 CDPII[6988:116727] Resetting plugins due to page load.
+2015-04-07 12:13:27.814 CDPII[6988:116727] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Bundle/Application/C717C514-9EA6-446A-B532-B94390F9B92E/CDPII.app/www/index.html#/app/book
+2015-04-07 12:43:22.996 CDPII[7306:123584] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Data/Application/B2523F13-D201-4E79-AF30-04388577DFC6/Library/Cookies/Cookies.binarycookies
+2015-04-07 12:43:23.272 CDPII[7306:123584] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 12:43:23.273 CDPII[7306:123584] Multi-tasking -> Device: YES, App: YES
+2015-04-07 12:43:23.277 CDPII[7306:123584] Unlimited access to network resources
+2015-04-07 12:43:23.371 CDPII[7306:123584] [CDVTimer][keyboard] 0.072002ms
+2015-04-07 12:43:23.371 CDPII[7306:123584] [CDVTimer][TotalPluginStartup] 0.279009ms
+2015-04-07 12:43:23.459 CDPII[7306:123584] Resetting plugins due to page load.
+2015-04-07 12:43:23.689 CDPII[7306:123584] Finished load of: file:///Users/zealios/Library/Developer/CoreSimulator/Devices/F798F6DA-E424-4C0E-A309-B572D75C4B57/data/Containers/Bundle/Application/B51F98C0-F83F-4513-A1DD-CCE4C7074214/CDPII.app/www/index.html#/app/book
